@@ -1,8 +1,7 @@
 from game_board import GameBoard
 import time, getopt, sys
-from Players import (random_player, player)
-
-
+import random_player
+import player
 
 
 class HeadlessReversiCreator(object):
